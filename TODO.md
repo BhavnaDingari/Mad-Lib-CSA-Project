@@ -4,15 +4,15 @@
   ### Isaac:
     * Class definition & main method ✅
     * Variable containing incomplete Mad Lib ✅
-    * Algorithms to process user input
+    * Algorithms to process user input ✅
     * Prompts to keep user on track ✅
     * Sentence 1 ✅
     * Sentence 3
-    * Fix noun, verb, adjective requirement
+    * Fix noun, verb, adjective requirement ✅
     * Unique read me
   ### Gurucharan:
     * Algorithms to parse the sections
-    * Final print statement of completed story
+    * Final print statement of completed story 
     * Sentence 2 
     * Sentence 4
     * Comments
