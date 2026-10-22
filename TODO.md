@@ -2,10 +2,10 @@
 
 ## Team A:
   ### Isaac:
-    * Class definition & main method
-    * Variable containing incomplete Mad Lib
+    * Class definition & main method ✅
+    * Variable containing incomplete Mad Lib ✅
     * Algorithms to process user input
-    * Prompts to keep user on track
+    * Prompts to keep user on track ✅
     * Sentence 1 & 3
   ### Gurucharan:
     * Algorithms to parse the sections
@@ -15,9 +15,11 @@
 
 ## Team B:
   ### Bhavna:
-    * All requirements for sentence 1
+    * All requirements for sentence 1 ✅
+    * All requirements for sentence 4 
   ### Pavi:
-    * All requirements for sentence 2
+    * All requirements for sentence 2 ✅
+    * All requirements for sentence 4
   ### Rachita:
-    * All requirements for sentence 3
-    
+    * All requirements for sentence 3 ✅
+    * All requirements for sentence 4
