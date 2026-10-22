@@ -25,6 +25,7 @@
     * Presentation slide deck
   ### Pavi:
     * All requirements for sentence 2 ✅
+    * Create unique read me
     * Presentation slide deck
   ### Rachita:
     * All requirements for sentence 3 ✅
