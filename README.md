@@ -29,11 +29,6 @@ A Java-based interactive Mad Libs story generator created for AP Computer Scienc
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- [Java Development Kit (JDK 8 or higher)](https://www.oracle.com/java/technologies/downloads/) installed.
-
 ### Execution Steps
 
 1. **Clone the repository:**
