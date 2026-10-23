@@ -2,33 +2,44 @@ import java.util.Scanner;
 public class madLibs {
     public static void main (String[]args){
 
+        // Sentence 1
+        // store incomplete Mad Lib in a variable with placeholders
         String incompleteMadLib = "I walked into the kitchen and saw a <adjective> cat eating a <noun> right off the <noun>.";
- 
-        Scanner sc = new Scanner (System.in);
 
+        // initiate scanner object to take user input
+        Scanner sc = new Scanner (System.in);
+        
+        // prompt user for an adjective and store it
         System.out.print("Enter an adjective: ");
         String adjective = sc.nextLine();
 
+        // prompt user for a noun and store it
         System.out.print("Enter a noun: ");
         String noun = sc.nextLine();
 
+        // prompt user for a noun and store it
         System.out.print("Enter a noun: ");
         String noun2 = sc.nextLine();
-
+        
+        // find positions of first '<' and '>' and extract text before the first placeholder 
         int start1 = incompleteMadLib.indexOf("<");
         int end1 = incompleteMadLib.indexOf(">");
         String part1 = incompleteMadLib.substring(0, start1);
 
+        // find positions of second '<' and '>' and extract text between first and second placeholder
         int start2 = incompleteMadLib.indexOf("<", end1 + 1);
         int end2 = incompleteMadLib.indexOf(">", end1 + 1);
         String part2 = incompleteMadLib.substring(end1 + 1, start2);
 
+        // find positions of second '<' and '>' and extract text between second and third placeholder
         int start3 = incompleteMadLib.indexOf("<", end2 + 1);
         int end3 = incompleteMadLib.indexOf(">", end2 + 1);
         String part3 = incompleteMadLib.substring(end2 + 1, start3);
 
+        // extract remaining text after the last placeholder
         String part4 = incompleteMadLib.substring(end3 + 1);
-
+        
+        // combine text segments with user-provided inputs to create the completed story
         String finalMadLib = part1 + adjective + part2 + noun + part3 + noun2 + part4;
         System.out.println(finalMadLib);
 
@@ -70,7 +81,8 @@ public class madLibs {
         String finalMadLib2 = part5 + num + part6 + noun3 + part7 + pluralNoun + part8;
         // priniting final Mad Lib
         System.out.println(finalMadLib2);
-
+        
+        // close scanner
         sc.close();
     }
 }
