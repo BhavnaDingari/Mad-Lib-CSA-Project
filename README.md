@@ -12,6 +12,9 @@ A Java-based interactive Mad Libs story generator created for AP Computer Scienc
 - **Clean Code Standards:** Features camelCase naming conventions, clear algorithm comments, and a structured `main` method.
 
 ---
+## Screenshots
+<img width="772" height="541" alt="image" src="https://github.com/user-attachments/assets/91e622ac-30f3-491a-a952-8dba828043d7" />
+
 
 ## 🛠️ Requirements Checklist
 
