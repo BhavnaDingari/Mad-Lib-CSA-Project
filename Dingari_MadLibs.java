@@ -2,6 +2,10 @@ import java.util.Scanner;
 public class Dingari_MadLibs {
     public static void main (String[]args){
 
+        String totalMadLib = "I walked into the kitchen and saw a <adjective> cat eating a <noun> right off the <noun>. My teacher told us that <number> dogs can easily jump over a flying <noun> if they wear <plural noun>.
+        During the assembly, the principal slipped on a <noun>, dropped <number> boxes of pizza, and started to <verb>. We built a robot out of <plural noun>, duct tape, and a very angry <noun> that could run <number> miles per hour.";
+        System.out.println(totalMadLib);
+    
         // Sentence 1
         // store incomplete Mad Lib in a variable with placeholders
         String incompleteMadLib = "I walked into the kitchen and saw a <adjective> cat eating a <noun> right off the <noun>.";
