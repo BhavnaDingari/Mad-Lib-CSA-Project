@@ -13,7 +13,7 @@ A Java-based interactive Mad Libs story generator created for AP Computer Scienc
 
 ---
 ## Screenshots
-<img width="772" height="541" alt="image" src="https://github.com/user-attachments/assets/91e622ac-30f3-491a-a952-8dba828043d7" />
+<img width="1919" height="1075" alt="image" src="https://github.com/user-attachments/assets/0aab606c-6f79-4ada-ad50-9bc8a22ed772" />
 
 
 ## 🛠️ Requirements Checklist
